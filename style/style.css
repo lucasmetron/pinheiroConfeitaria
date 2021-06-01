@@ -244,4 +244,25 @@ position: relative;
 
 /* ----------------------Cake's Menu----------------------  */
 
+.cakesMenu{
+    position: relative;
+}
 
+.confenteEnd{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    ali
+}
+
+.confenteStart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.confetesMenu{
+    width: 30rem;
+}
