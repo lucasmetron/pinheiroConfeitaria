@@ -40,10 +40,12 @@ header{
     width: 12rem;
     margin-top: 4rem;
     margin-left: 4rem;
+    cursor: pointer;
 }
 #iconMenu {
     width: 3rem;
     margin-right: 4rem;
+    cursor: pointer;
 }
 
 
@@ -59,20 +61,38 @@ header{
 
 .beginConfete{
     width: 70rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
+}
+
+.contaneinerCakes{
+    position:relative;
+    right: 10rem;
+   
+}
+
+.perfectPlacePs{
+    position: absolute;
+    top: 0rem;
+    left: -25rem;
+    top: -7rem;
+    z-index: 1;
 }
 
 .perfectPlace{
     color: var(--var--pink1);
+    font-size: 2.5rem;
+    text-align: justify;
 }
 
 .perfectPlace > span{
     color: var(--var--green3);
     font-weight: 900;
+    font-size: 2.5rem;
 }
 
 .cakes{
     position: relative;
+    right: -5rem;
 }
 
 .cakeMenu{
@@ -82,15 +102,15 @@ header{
     color: white;
     padding: 1rem 10rem 1rem 4rem;
     border-radius: 10rem;
+    cursor: pointer;
 
     position: absolute;
     left: -18rem;
-    top: 15rem;
+    top: 14rem;
 }
 
 .cakeBG{
     width: 25rem;
-
 }
 
 .whiteCake{
@@ -98,8 +118,13 @@ header{
     border-radius: 50%;
     position: absolute;
     left: -1rem;
-    
+    top: -0.5rem;
 }
+
+
+/* ----------------------About----------------------  */
+
+
 
 
 
