@@ -1,0 +1,45 @@
+@font-face {
+    font-family: caviarDream;
+    src: url(../assets/fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: caviarBold;
+    src: url(../assets/fonts/CaviarDreams_Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: caviarDream,Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+:root{
+    --var--white1:#FEFBFB;
+
+    --var--pink1:#E58C83;
+    --var--pink2: #C66558;
+
+    --var--green1:#91BCBA;
+    --var--green2:#81B9B7;
+    --var--green3: #489997;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--var--white1);
+}
+
+#logoPinheiro{
+    margin-top: 1rem;
+    width: 12rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+#iconMenu {
+    width: 3rem;
+    margin-right: 4rem;
+}
