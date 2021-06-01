@@ -253,6 +253,9 @@ position: relative;
 
 .cakesMenu{
     position: relative;
+    background-image: url(../assets/images/beginListra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .confenteEnd{
@@ -260,7 +263,7 @@ position: relative;
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
 }
 
 .confenteStart{
@@ -268,8 +271,23 @@ position: relative;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
+
+    transform: translateY(60);
 }
 
 .confetesMenu{
     width: 30rem;
+}
+
+.carouselmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.menuPhoto{
+    width: 50rem;
 }
