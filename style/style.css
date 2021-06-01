@@ -16,7 +16,7 @@
 }
 
 :root{
-    --var--white1:#FEFBFB;
+    --var--white1:#FFFFFF;
 
     --var--pink1:#E58C83;
     --var--pink2: #C66558;
@@ -25,6 +25,8 @@
     --var--green2:#81B9B7;
     --var--green3: #489997;
 }
+ 
+/* ----------------------Header----------------------  */
 
 header{
     display: flex;
@@ -43,3 +45,61 @@ header{
     width: 3rem;
     margin-right: 4rem;
 }
+
+
+/* ----------------------Begin Screen----------------------  */
+
+.beginScreen{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--var--white1);
+    position: relative;
+}
+
+.beginConfete{
+    width: 70rem;
+    margin-top: 10rem;
+}
+
+.perfectPlace{
+    color: var(--var--pink1);
+}
+
+.perfectPlace > span{
+    color: var(--var--green3);
+    font-weight: 900;
+}
+
+.cakes{
+    position: relative;
+}
+
+.cakeMenu{
+    background-color: var(--var--green3);
+    display: inline-block;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 10rem 1rem 4rem;
+    border-radius: 10rem;
+
+    position: absolute;
+    left: -18rem;
+    top: 15rem;
+}
+
+.cakeBG{
+    width: 25rem;
+
+}
+
+.whiteCake{
+    width: 25rem;
+    border-radius: 50%;
+    position: absolute;
+    left: -1rem;
+    
+}
+
+
+
