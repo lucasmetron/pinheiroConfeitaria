@@ -25,6 +25,39 @@
     --var--green2:#81B9B7;
     --var--green3: #489997;
 }
+
+.bt-verde{
+    background-color: var(--var--green1);
+    color: var(--var--white1);
+    border: none;
+    font-size: 2rem;
+    border-radius: 2rem;
+    padding: 1.5rem 4rem 1.5rem 4rem;
+    text-align: center ;
+    
+    transition: all ease 0.5s;
+}
+
+.bt-verde:hover{
+    background-color: var(--var--green3);
+}
+
+.bt-rosa{
+
+    background-color: var(--var--pink1);
+    color: var(--var--white1);
+    border: none;
+    font-size: 2rem;
+    border-radius: 2rem;
+    padding: 1.5rem 4rem 1.5rem 4rem;
+    text-align: center ;
+
+    transition: all ease 0.5s;
+}
+
+.bat-rosa{
+    background-color: var(--var--pink2);
+}
  
 /* ----------------------Header----------------------  */
 
@@ -107,6 +140,12 @@ header{
     position: absolute;
     left: -18rem;
     top: 14rem;
+
+    transition: all ease 0.5s;
+}
+
+.cakeMenu:hover{
+    background-color: var(--var--green1);
 }
 
 .cakeBG{
@@ -124,10 +163,42 @@ header{
 
 /* ----------------------About----------------------  */
 
+.about{
+position: relative;
+}
 
 .aboutBG{
+    z-index: -1;
+}
+
+.conteudoZindex1{
+    z-index: 1;
+    position: absolute;
+    top: 0;
     width: 100%;
-    height: 100%;
+}
+
+.marginT0{
+    margin-top: 6rem;
+}
+
+.marginT1{
+    margin-top: 3rem;
+}
+
+.dFlexEvenly{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+.imgCarousel{
+    max-width: 22rem;
+    border-radius: 0.5rem;
 }
 
 
