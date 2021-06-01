@@ -66,6 +66,9 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: var(--var--white1);
+    background-image: url(../assets/images/beginListra.png);
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 #logoPinheiro{
@@ -91,6 +94,10 @@ header{
     justify-content: space-between;
     background-color: var(--var--white1);
     position: relative;
+
+    background-image: url(../assets/images/beginListra.png);
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .beginConfete{
@@ -253,7 +260,7 @@ position: relative;
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    ali
+    transform: translateY(-50%);
 }
 
 .confenteStart{
