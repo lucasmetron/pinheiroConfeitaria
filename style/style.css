@@ -74,6 +74,7 @@ header{
     margin-top: 4rem;
     margin-left: 4rem;
     cursor: pointer;
+    max-width: 25rem;
 }
 #iconMenu {
     width: 3rem;
@@ -169,6 +170,8 @@ position: relative;
 
 .aboutBG{
     z-index: -1;
+    width: 100%;
+    height: 90rem;
 }
 
 .conteudoZindex1{
@@ -200,5 +203,45 @@ position: relative;
     max-width: 22rem;
     border-radius: 0.5rem;
 }
+
+.leticia{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: yellow; */
+}
+
+.leticiaIMG{
+    width: 35rem;
+    border-radius: 50%;
+}
+
+.verde{
+    color: var(--var--green3);
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.leticiaFlex{
+    /* background-color: green; */
+
+    text-align: center;
+   
+}
+
+.textoFlex{
+    /* background-color: blue; */
+    width: 50%;
+   font-weight: 900;
+}
+
+.textoFlex > p{
+    font-size: 1.5rem;
+    color: var(--var--white1);
+}
+
+
+
+/* ----------------------Cake's Menu----------------------  */
 
 
