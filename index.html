@@ -13,10 +13,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 
 
-
-
-
-
 </head>
 
 <body>
@@ -24,9 +20,9 @@
     <div class="cont">
 
         <header>
-            <img id="logoPinheiro" src="./assets/images/greenLogo.png" alt="Logo Pinheiro Confeitaria">
+            <img class="logoPinheiro" src="./assets/images/greenLogo.png" alt="Logo Pinheiro Confeitaria">
             <div>
-                <img id="iconMenu" src="./assets/images/menu.png" alt="img menu">
+                <img class="iconMenu" src="./assets/images/menu.png" alt="img menu">
             </div>
         </header>
 
@@ -71,17 +67,17 @@
                             <div class="dFlexEvenly">
                                 <div class="alignCenter">
                                     <img class="imgCarousel" src="./assets/images/cake1.jpeg" alt="bolo 1"><br>
-                                    <button class="marginT1 bt-verde">QUERO ESSE!</button>
+                                    <button class="marginT1 bt-verde">QUERO ESSE</button>
                                 </div>
 
                                 <div class="alignCenter">
                                     <img class="imgCarousel" src="./assets/images/cake2.jpeg" alt="bolo 1"><br>
-                                    <button class="marginT1 bt-verde">QUERO ESSE!</button>
+                                    <button class="marginT1 bt-verde">QUERO ESSE</button>
                                 </div>
 
                                 <div class="alignCenter">
                                     <img class="imgCarousel" src="./assets/images/cake3.jpeg" alt="bolo 1"><br>
-                                    <button class="marginT1 bt-verde">QUERO ESSE!</button>
+                                    <button class="marginT1 bt-verde">QUERO ESSE</button>
                                 </div>
                             </div>
                         </div>
@@ -90,17 +86,17 @@
                             <div class="dFlexEvenly">
                                 <div class="alignCenter">
                                     <img class="imgCarousel" src="./assets/images/cake4.jpeg" alt="bolo 1"><br>
-                                    <button class="marginT1 bt-verde">QUERO ESSE!</button>
+                                    <button class="marginT1 bt-verde">QUERO ESSE</button>
                                 </div>
 
                                 <div class="alignCenter">
                                     <img class="imgCarousel" src="./assets/images/cake5.jpeg" alt="bolo 1"><br>
-                                    <button class="marginT1 bt-verde">QUERO ESSE!</button>
+                                    <button class="marginT1 bt-verde">QUERO ESSE</button>
                                 </div>
 
                                 <div class="alignCenter">
                                     <img class="imgCarousel" src="./assets/images/cake6.jpeg" alt="bolo 1"><br>
-                                    <button class="marginT1 bt-verde">QUERO ESSE!</button>
+                                    <button class="marginT1 bt-verde">QUERO ESSE</button>
                                 </div>
                             </div>
                         </div>
@@ -109,17 +105,17 @@
                             <div class="dFlexEvenly">
                                 <div class="alignCenter">
                                     <img class="imgCarousel" src="./assets/images/cake7.jpeg" alt="bolo 1"><br>
-                                    <button class="marginT1 bt-verde">QUERO ESSE!</button>
+                                    <button class="marginT1 bt-verde">QUERO ESSE</button>
                                 </div>
 
                                 <div class="alignCenter">
                                     <img class="imgCarousel" src="./assets/images/cake8.jpeg" alt="bolo 1"><br>
-                                    <button class="marginT1 bt-verde">QUERO ESSE!</button>
+                                    <button class="marginT1 bt-verde">QUERO ESSE</button>
                                 </div>
 
                                 <div class="alignCenter">
                                     <img class="imgCarousel" src="./assets/images/cake9.jpeg" alt="bolo 1"><br>
-                                    <button class="marginT1 bt-verde">QUERO ESSE!</button>
+                                    <button class="marginT1 bt-verde">QUERO ESSE</button>
                                 </div>
                             </div>
                         </div>
@@ -235,15 +231,65 @@
 
                 </div>
 
-                <div class="confenteStart">
-                    <img class="confetesMenu" src="./assets/images/menuConfeteLeft.png">
-                </div>
-
         </section>
 
 
+        <section class="containerForm">
+
+            <div class="confenteStart">
+                <img class="confetesMenu" src="./assets/images/menuConfeteLeft.png">
+            </div>
+
+
+
+            <div class="containerInputs">
+                <h2 class="order">FAÇA SEU ORÇAMENTO:</h2>
+                <form action="/" method="get">
+
+                    <p class="formTitles">Descrição do(s) produto(s) (tipo, tamanho, sabor, adicionais):</p>
+                    <textarea class="inputDescription" name="description" id="description" cols="30"
+                        rows="10"></textarea>
+
+                    <p class="formTitles">Nome do solicitante:</p>
+                    <input type="text" name="name" id="name">
+
+                    <p class="formTitles">E-mail:</p>
+                    <input type="email" name="email" id="email">
+
+                    <p class="formTitles">Celular:</p>
+                    <input type="number"><br>
+
+                    <button class="bt-rosa mt-5 mb-5 alingCenter">ENVIAR</button>
+                </form>
+
+            </div>
+
+            <div class="confeteOrder">
+                <img class="formConfete" src="./assets/images/formConfete.png">
+            </div>
+
+
+        </section>
+
+        <footer>
+
+            <div>
+                <a href="/"><img class="logoPinheiro" src="./assets/images/greenLogo.png" alt="Logo"></a>
+            </div>
+
+
+            <div>
+                <a href=""><img src="./assets/images/wpp.png" alt="Whatasapp"></a>
+                <a href=""><img src="./assets/images/insta.png" alt="Instagram"></a>
+                <a href=""><img src="./assets/images/face.png" alt="Facebook"></a>
+            </div>
+
+        </footer>
 
     </div>
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"

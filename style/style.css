@@ -31,6 +31,8 @@
     color: var(--var--white1);
     border: none;
     font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
     border-radius: 2rem;
     padding: 1.5rem 4rem 1.5rem 4rem;
     text-align: center ;
@@ -48,14 +50,18 @@
     color: var(--var--white1);
     border: none;
     font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
     border-radius: 2rem;
     padding: 1.5rem 4rem 1.5rem 4rem;
     text-align: center ;
+    border: none;
+    outline: none;
 
     transition: all ease 0.5s;
 }
 
-.bat-rosa{
+.bt-rosa:hover{
     background-color: var(--var--pink2);
 }
  
@@ -71,7 +77,7 @@ header{
     background-size: cover;
 }
 
-#logoPinheiro{
+.logoPinheiro{
     margin-top: 1rem;
     width: 12rem;
     margin-top: 4rem;
@@ -79,7 +85,7 @@ header{
     cursor: pointer;
     max-width: 25rem;
 }
-#iconMenu {
+.iconMenu {
     width: 3rem;
     margin-right: 4rem;
     cursor: pointer;
@@ -140,10 +146,13 @@ header{
     background-color: var(--var--green3);
     display: inline-block;
     font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
     color: white;
     padding: 1rem 10rem 1rem 4rem;
     border-radius: 10rem;
     cursor: pointer;
+
 
     position: absolute;
     left: -18rem;
@@ -257,6 +266,8 @@ position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 .confenteEnd{
@@ -266,9 +277,11 @@ position: relative;
 }
 
 .confenteStart{
-    text-align: start;
-    width: 100%;
-    transform: translateY(-40%);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -23rem;
+
 }
 
 .confetesMenu{
@@ -286,6 +299,7 @@ position: relative;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 .containerCorousel{
@@ -304,9 +318,86 @@ position: relative;
 }
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23499997' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236D6D6D' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23499997' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236D6D6D' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+
+
+/* ----------------------Form----------------------  */
+
+.containerForm{
+    width: 100%;
+    background-color: var(--var--green2);
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+}
+
+.order{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--var--pink2);
+    font-weight: 900;
+    font-size: 3rem;
+    align-self: flex-start;
+}
+
+.containerInputs{
+
+    width: 80%;
+}
+
+.formTitles{
+    color: var(--var--white1);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.inputDescription{
+    width: 100%;
+    height: 8rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.alingCenter{
+    margin: auto;
+}
+
+.confeteOrder{
+    position: absolute;
+    right: 0;
+    bottom: -15rem;
+}
+
+.formConfete{
+    width: 30rem;
+
+}
+
+/* ----------------------Footer----------------------  */
+
+
+
+
