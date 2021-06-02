@@ -398,6 +398,26 @@ form{
 
 /* ----------------------Footer----------------------  */
 
+footer{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.logoFooter{
+    width: 12rem;
+}
+
+.socialMedias{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socialMediasWidth{
+    width: 8rem;
+}
 
 
