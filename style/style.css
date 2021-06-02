@@ -281,6 +281,7 @@ position: relative;
     position: absolute;
     left: 0;
     top: -23rem;
+    z-index: 1;
 
 }
 
@@ -347,10 +348,11 @@ position: relative;
     font-weight: 900;
     font-size: 3rem;
     align-self: flex-start;
+    
 }
 
 .containerInputs{
-
+    z-index: 2;
     width: 80%;
 }
 
@@ -374,6 +376,7 @@ input{
     outline: none;
     line-height: 2.5rem;
     font-size: 1.5rem;
+    z-index: 2;
 }
 
 form{
@@ -389,11 +392,12 @@ form{
     position: absolute;
     right: 0;
     bottom: -15rem;
+    z-index: 1;
 }
 
 .formConfete{
     width: 30rem;
-
+    
 }
 
 /* ----------------------Footer----------------------  */
@@ -403,6 +407,9 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-image: url(../assets/images/beginListra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logoFooter{
