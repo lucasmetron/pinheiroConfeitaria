@@ -11,19 +11,35 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="icon" href="./assets/images/greenLogo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+
+
 
     <div class="cont">
 
         <header id="begin">
             <a href="#begin"><img class="logoPinheiro" src="./assets/images/greenLogo.png"
                     alt="Logo Pinheiro Confeitaria"></a>
-            <div>
-                <img class="iconMenu" src="./assets/images/menu.png" alt="img menu">
+            <div class="bar">
+                <nav>
+                    <input id="hamburguer" type="checkbox">
+                    <label for="hamburguer">
+                        <div class="hamburguer active"></div>
+                    </label>
+
+                    <ul class="menu active">
+                        <li><a href="#leticia">Sobre</a></li>
+                        <li><a href="#carouselAbout">Fotos</a></li>
+                        <li><a href="#menuPinheiro">Cardápio</a></li>
+                        <li><a href="#budget">Orçamento</a></li>
+                        <li><a href="#socialMedias">Contatos</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
 
@@ -137,7 +153,7 @@
                 </div>
 
 
-                <div class="leticia marginT0">
+                <div id="leticia" class="leticia marginT0">
                     <div class="leticiaFlex">
                         <img class="leticiaIMG" src="./assets/images/leticia1.jpg" alt="Confeiteira Letícia">
                     </div>
@@ -281,7 +297,7 @@
             </div>
 
 
-            <div class="socialMedias">
+            <div id="socialMedias" class="socialMedias">
                 <a href="https://whats.link/pinheiroconfeitaria" target="_blank"><img class="socialMediasWidth"
                         src="./assets/images/wpp.png" alt="Whatasapp"></a>
                 <a href="https://www.instagram.com/pinheiroconfeitaria/" target="_blank"><img class="socialMediasWidth"
