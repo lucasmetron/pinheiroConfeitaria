@@ -256,38 +256,57 @@ position: relative;
     background-image: url(../assets/images/beginListra.png);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 .confenteEnd{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-    transform: translateY(-60%);
+    text-align: end;
+    transform: translateY(-40%);
+
 }
 
 .confenteStart{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    text-align: start;
     width: 100%;
-
-    transform: translateY(60);
+    transform: translateY(-40%);
 }
 
 .confetesMenu{
-    width: 30rem;
+    max-width: 30rem;
 }
 
-.carouselmenu{
+.verdeMenu{
+    color:var(--var--green3);
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.alinhaCarousel{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    margin-top: 2rem;
+}
+
+.containerCorousel{
+    width: 40%;
+    text-align: center;
+    
 }
 
 .menuPhoto{
     width: 50rem;
+}
+
+.teste{
+    color: black;
+    font-size: 25rem;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23499997' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23499997' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
