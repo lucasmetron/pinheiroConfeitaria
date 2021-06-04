@@ -764,6 +764,11 @@ display: none;
     width: 80%;
 }
 
+.formConfete{
+    width: 20rem;
+    
+}
+
 
 /* ----------------------Footer Mobile----------------------  */
 
@@ -778,6 +783,7 @@ footer{
 
 .logoFooter{
     width: 12rem;
+    z-index: 2;
 }
 
 .socialMedias{
@@ -787,6 +793,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    z-index: 2;
 }
 
 .socialMediasWidth{
