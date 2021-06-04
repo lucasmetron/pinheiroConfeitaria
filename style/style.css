@@ -75,6 +75,7 @@ header{
     background-image: url(../assets/images/beginListra.png);
     background-repeat: repeat;
     background-size: cover;
+    z-index: 3;
 }
 
 .logoPinheiro{
@@ -84,7 +85,9 @@ header{
     margin-left: 4rem;
     cursor: pointer;
     max-width: 25rem;
+    z-index: 3;
 }
+
 .iconMenu {
     width: 3rem;
     margin-right: 4rem;
@@ -183,9 +186,10 @@ header{
 .beginScreen{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: var(--var--white1);
+    justify-content: flex-end;
     position: relative;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
 
     background-image: url(../assets/images/beginListra.png);
     background-repeat: repeat;
@@ -194,8 +198,12 @@ header{
 
 .beginConfete{
     width: 70rem;
-    margin-top: 5rem;
+    display: inline;
+    position: absolute;
+    left: 0; 
+    z-index: 2;
 }
+
 
 .contaneinerCakes{
     position:relative;
@@ -214,7 +222,7 @@ header{
 .perfectPlace{
     color: var(--var--pink1);
     font-size: 2.5rem;
-    text-align: justify;
+    line-height: normal;
 }
 
 .perfectPlace > span{
@@ -252,11 +260,11 @@ header{
 }
 
 .cakeBG{
-    width: 25rem;
+    width: 30rem;
 }
 
 .whiteCake{
-    width: 25rem;
+    width: 30rem;
     border-radius: 50%;
     position: absolute;
     left: -1rem;
@@ -515,7 +523,14 @@ footer{
 
 /* ----------------------Mobile----------------------  */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 899px) {
+
+    /* ----------------------Header----------------------  */
+
+    .logoPinheiro{
+        max-width: 8rem;
+    }
+
     .hamburguer {
         display: block;
         position: absolute;
@@ -540,6 +555,93 @@ footer{
         right: -100%;
     }
     
-    
-}
+/* ----------------------begin----------------------  */
 
+    .beginScreen{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+
+        background-image: url(../assets/images/beginListra.png);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+    .beginConfete{
+        width: 50rem;
+        height: 30rem;
+        display: inline-block;
+        position: absolute;
+        right: 0; 
+        z-index: 2;
+       
+        
+    }
+
+    .contaneinerCakes{
+        position:relative;
+        right: 10rem;
+    
+    }
+
+    .perfectPlacePs{
+        position:static;
+        z-index: 1;
+    }
+
+    .perfectPlace{
+        color: var(--var--pink1);
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .perfectPlace > span{
+        color: var(--var--green3);
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+    .cakes{
+        position: relative;
+        right: -5rem;
+    }
+
+    .cakeMenu{
+        background-color: var(--var--green3);
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 900;
+        letter-spacing: 0.1rem;
+        color: white;
+        padding: 1rem 10rem 1rem 4rem;
+        border-radius: 10rem;
+        cursor: pointer;
+
+
+        position: absolute;
+        left: -18rem;
+        top: 14rem;
+
+        transition: all ease 0.5s;
+    }
+
+    .cakeMenu:hover{
+        background-color: var(--var--green1);
+    }
+
+    .cakeBG{
+        width: 20rem;
+    }
+
+    .whiteCake{
+        width: 20rem;
+        border-radius: 50%;
+        position: absolute;
+        left: -1rem;
+        top: -0.5rem;
+    }
+
+}
