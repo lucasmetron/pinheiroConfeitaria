@@ -308,6 +308,10 @@ position: relative;
     text-align: center;
 }
 
+#carouselAboutMobile{
+ display: none;   
+}
+
 .imgCarousel{
     max-width: 22rem;
     border-radius: 0.5rem;
@@ -318,6 +322,10 @@ position: relative;
     align-items: center;
     justify-content: space-evenly;
     /* background-color: yellow; */
+}
+
+.leticiaMobile{
+    display: none;
 }
 
 .leticiaIMG{
@@ -516,6 +524,7 @@ footer{
     width: 8rem;
 }
 
+
 /* ----------------------Mobile----------------------  */
 
 @media screen and (max-width: 1000px) {
@@ -550,7 +559,7 @@ footer{
         right: -100%;
     }
     
-/* ----------------------begin----------------------  */
+/* ----------------------begin Mobile----------------------  */
 
 .beginScreen{
     position: relative;
@@ -561,7 +570,6 @@ footer{
     padding-top: 10rem;
     padding-bottom: 10rem;
 
-    /* background-color: blue; */
     background-image: url(../assets/images/beginListra.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -637,9 +645,152 @@ footer{
 }
 
 
+/* ----------------------about Mobile----------------------  */
+.aboutBG{
+    height: 100rem;
+}
+
+#carouselAbout{
+    display: none;
+}
+
+#carouselAboutMobile{
+    display: block;
+    width: 100%;
+    margin-top: 3rem;
+  
+
+}
+.alinha{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
 
+.containerCarouselAboutMobile{
+    width: 100%;
+    
+}
+
+.imgCarouselMobile{
+    width: 20rem;
+}
+
+.leticia{
+display: none;
+}
+
+.leticiaMobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 
+.leticiaFlexMobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.leticiaFlexMobile > img{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 60%;
+}
+
+
+.leticiaFlexMobile > h3 {
+    color: var(--var--green3);
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+.h3span {
+    color: var(--var--green3);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.textoFlexMobile{
+    color: var(--var--white1);
+    width: 80%;
+    text-align: justify;
+    margin-top: 2rem;
+    z-index: 1;
+}
+
+.textoFlexMobile > p{
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+
+/* ----------------------Cakes's Mobile----------------------  */
+
+.confetesMenu{
+    max-width: 19rem;
+}
+
+.confenteEnd{
+    text-align: end;
+    transform: translateY(-10%);
+
+}
+
+.confenteStart{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -10rem;
+    z-index: 1;
+
+}
+
+.verdeMenu{
+    font-size: 2rem;
+}
+
+.alinhaCarousel{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.containerCorousel{
+    width: 80%;
+}
+
+
+/* ----------------------Footer Mobile----------------------  */
+
+footer{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.logoFooter{
+    width: 12rem;
+}
+
+.socialMedias{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socialMediasWidth{
+    width: 6rem;
+}
 
 }
