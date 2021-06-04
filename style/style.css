@@ -190,16 +190,29 @@ header{
     flex-wrap: nowrap;
     padding-top: 10rem;
     padding-bottom: 10rem;
-
- 
+    /* background-image: url(../assets/images/beginListra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  */
     z-index: 1;
 }
 
 .divColorConfete{
     position: absolute;
     left: 0;
-    top: 1rem
+    top: 1rem;
+ 
 }
+
+.colorConfete{
+
+}
+
+.colorConfeteMobile{
+    display: none;
+}
+
+
 .colorConfete{
     width: 70rem;
  
@@ -221,7 +234,6 @@ header{
 
 .divCake{
     position: relative;
-    background-color: brown;
     margin-right: 10rem;
 }
 
@@ -232,8 +244,14 @@ header{
     border-radius: 5rem;
     position: absolute;
     transform: translate(-65%, -130%);
+    transition: all ease 0.5s;
+    cursor: pointer;
     
     z-index: -1;
+}
+
+.whiteCakeMenu:hover{
+    background-color: var(--var--green1);
 }
 
 .whiteCake{
@@ -500,7 +518,7 @@ footer{
 
 /* ----------------------Mobile----------------------  */
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 1000px) {
 
     /* ----------------------Header----------------------  */
 
@@ -533,4 +551,95 @@ footer{
     }
     
 /* ----------------------begin----------------------  */
+
+.beginScreen{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+    /* background-color: blue; */
+    background-image: url(../assets/images/beginListra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+    z-index: 1;
+}
+
+
+.colorConfete{
+    display: none;
+}
+
+.colorConfeteMobile{
+    display: inline-block;
+    width: 45rem;
+    position: absolute;
+    top:-10rem;
+}
+
+.perfectPlace{
+    font-size:1.8rem;
+    color: var(--var--pink1);
+    position:absolute;
+    transform: translate(-0%, -70%);
+    text-align:start;
+}
+
+.perfectPlace > span{
+    font-size: 1.8rem;
+    color: var(--var--green3);
+    font-weight: 900;
+}
+
+.divCake{
+    position: relative;
+    margin-right: 2rem;
+    z-index: 2;
+}
+
+.whiteCakeMenu{
+    padding: 2rem 8rem 2rem 3rem;
+    background-color: var(--var--green3);
+    color: var(--var--white1);
+    border-radius: 5rem;
+    position: absolute;
+    transform: translate(-60%, -130%);
+    transition: all ease 0.5s;
+    cursor: pointer;
+    
+    z-index: -1;
+}
+
+.whiteCakeMenu:hover{
+    background-color: var(--var--green1);
+}
+
+.whiteCake{
+    width: 20rem;
+    border-radius: 50%;
+    z-index: 3;
+    margin-top: 5rem;
+}
+
+.cakeBG{
+    width: 20rem;
+    position: absolute;
+    z-index: -1;
+    left: 1rem;
+    top: 1rem;
+    margin-top: 5rem;
+    
+}
+
+
+
+
+
+
+
 }
