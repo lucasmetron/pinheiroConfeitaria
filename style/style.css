@@ -182,94 +182,75 @@ header{
 }
 
 /* ----------------------Begin Screen----------------------  */
-
 .beginScreen{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    position: relative;
-    padding-top: 15rem;
-    padding-bottom: 5rem;
+    flex-wrap: nowrap;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 
-    background-image: url(../assets/images/beginListra.png);
-    background-repeat: repeat;
-    background-size: cover;
-}
-
-.beginConfete{
-    width: 70rem;
-    display: inline;
-    position: absolute;
-    left: 0; 
-    z-index: 2;
-}
-
-
-.contaneinerCakes{
-    position:relative;
-    right: 10rem;
-   
-}
-
-.perfectPlacePs{
-    position: absolute;
-    top: 0rem;
-    left: -25rem;
-    top: -7rem;
+ 
     z-index: 1;
 }
 
+.divColorConfete{
+    position: absolute;
+    left: 0;
+    top: 1rem
+}
+.colorConfete{
+    width: 70rem;
+ 
+}
+
 .perfectPlace{
-    color: var(--var--pink1);
     font-size: 2.5rem;
-    line-height: normal;
+    color: var(--var--pink1);
+    position: absolute;
+    transform: translate(-130%, -30%);
+    text-align:start;
 }
 
 .perfectPlace > span{
+    font-size: 2.5rem;
     color: var(--var--green3);
     font-weight: 900;
-    font-size: 2.5rem;
 }
 
-.cakes{
+.divCake{
     position: relative;
-    right: -5rem;
+    background-color: brown;
+    margin-right: 10rem;
 }
 
-.cakeMenu{
+.whiteCakeMenu{
+    padding: 2rem 8rem 2rem 5rem;
     background-color: var(--var--green3);
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: 900;
-    letter-spacing: 0.1rem;
-    color: white;
-    padding: 1rem 10rem 1rem 4rem;
-    border-radius: 10rem;
-    cursor: pointer;
-
-
+    color: var(--var--white1);
+    border-radius: 5rem;
     position: absolute;
-    left: -18rem;
-    top: 14rem;
-
-    transition: all ease 0.5s;
-}
-
-.cakeMenu:hover{
-    background-color: var(--var--green1);
-}
-
-.cakeBG{
-    width: 30rem;
+    transform: translate(-65%, -130%);
+    
+    z-index: -1;
 }
 
 .whiteCake{
-    width: 30rem;
+    width: 25rem;
     border-radius: 50%;
-    position: absolute;
-    left: -1rem;
-    top: -0.5rem;
+    z-index: 3;
 }
+
+.cakeBG{
+    width: 25rem;
+    position: absolute;
+    z-index: -1;
+    left: 1rem;
+    top: 1rem;
+    
+}
+
 
 
 /* ----------------------About----------------------  */
@@ -407,10 +388,6 @@ position: relative;
     width: 50rem;
 }
 
-.teste{
-    color: black;
-    font-size: 25rem;
-}
 
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236D6D6D' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
@@ -556,92 +533,4 @@ footer{
     }
     
 /* ----------------------begin----------------------  */
-
-    .beginScreen{
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: relative;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-
-        background-image: url(../assets/images/beginListra.png);
-        background-repeat: repeat;
-        background-size: cover;
-    }
-
-    .beginConfete{
-        width: 50rem;
-        height: 30rem;
-        display: inline-block;
-        position: absolute;
-        right: 0; 
-        z-index: 2;
-       
-        
-    }
-
-    .contaneinerCakes{
-        position:relative;
-        right: 10rem;
-    
-    }
-
-    .perfectPlacePs{
-        position:static;
-        z-index: 1;
-    }
-
-    .perfectPlace{
-        color: var(--var--pink1);
-        font-size: 2rem;
-        line-height: normal;
-    }
-
-    .perfectPlace > span{
-        color: var(--var--green3);
-        font-weight: 900;
-        font-size: 2rem;
-    }
-
-    .cakes{
-        position: relative;
-        right: -5rem;
-    }
-
-    .cakeMenu{
-        background-color: var(--var--green3);
-        display: inline-block;
-        font-size: 2rem;
-        font-weight: 900;
-        letter-spacing: 0.1rem;
-        color: white;
-        padding: 1rem 10rem 1rem 4rem;
-        border-radius: 10rem;
-        cursor: pointer;
-
-
-        position: absolute;
-        left: -18rem;
-        top: 14rem;
-
-        transition: all ease 0.5s;
-    }
-
-    .cakeMenu:hover{
-        background-color: var(--var--green1);
-    }
-
-    .cakeBG{
-        width: 20rem;
-    }
-
-    .whiteCake{
-        width: 20rem;
-        border-radius: 50%;
-        position: absolute;
-        left: -1rem;
-        top: -0.5rem;
-    }
-
 }
