@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/images/greenlogo.png" alt="Logo Confeitaria">
+  <img src="./assets/images/greenLogo.png" alt="Logo Confeitaria">
   
 </div>
 
