@@ -3,7 +3,6 @@
   
 </div>
 
-![Logo](./assets/images/greenLogo.png =100x20)
 ### - Olá comunidade! :D
 
 ### - Para praticar o front-end decidi fazer uma página para a confeitaria da minha cunhada. E claro né, a responsável por este layout top é a minha esposa Laís.
