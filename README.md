@@ -1,15 +1,15 @@
-<div align="center">
+<div>
   <img style="width: 20px;" src="./assets/images/greenLogo.png" alt="Logo Confeitaria">
   
 </div>
 
 ### - Olá comunidade! :D
 
-### - Para praticar o front-end decidi fazer uma página para a confeitaria da minha cunhada. E claro né, a responsável por este layout top é a minha esposa Laís.
+### - Para praticar minhas skills de front-end, decidi fazer uma página para a confeitaria da minha cunhada. E claro, a responsável pelo UI e todo esse layout top é a minha esposa Laís.
 
-### - O legal dessa página, é que eu integrei ela com o Mailchimp que presta um serviço muito bacana de e-mail marketing. Quando os cliente forem fazendo os pedidos pelo site, isso faz com que gere uma lista de clientes no Mailchimp e é possível fazer camapanhas de disparo de e-mail em massa.   
+### - O legal dessa página é que eu a integrei com o Mailchimp, que presta um serviço muito bacana de e-mail marketing. Quando o cliente fizer seu pedido de orçamento pelo site, o cadastro dele será inserido em uma lista de clientes no Mailchimp, onde é possível fazer camapanhas de disparo de e-mail em massa.   
 
-### - Nesta aplicação foram usados as seguintes tecnologias:
+### - Nesta aplicação foram usadas as seguintes tecnologias:
 
 #### *HTML.
 #### *CSS.
