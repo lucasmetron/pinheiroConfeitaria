@@ -3,9 +3,7 @@
   
 </div> -->
 
-![logo](./assets/images/greenLogo.png)
-
-teste
+![logo](./assets/images/greenLogo.png = 20x20)
 
 ### - Olá comunidade! :D
 
