@@ -1,9 +1,8 @@
 <div align="center">
-  <img src="./assets/images/greenLogo.png" width="48" alt="Logo Confeitaria">
+  <img src="./assets/images/greenLogo.png" width="200" alt="Logo Confeitaria">
   
 </div>
 
-![logo](./assets/images/greenLogo.png = 20x20)
 
 ### - Olá comunidade! :D
 
