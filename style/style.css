@@ -557,6 +557,7 @@ footer{
     }
     .menu.active {
         right: -100%;
+        display: none;
     }
     
 /* ----------------------begin Mobile----------------------  */
