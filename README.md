@@ -1,7 +1,7 @@
-<!-- <div align="center" width="20px">
-  <img style="width: 20px;" src="./assets/images/greenLogo.png" alt="Logo Confeitaria">
+<div align="center">
+  <img src="./assets/images/greenLogo.png" width="48" alt="Logo Confeitaria">
   
-</div> -->
+</div>
 
 ![logo](./assets/images/greenLogo.png = 20x20)
 
