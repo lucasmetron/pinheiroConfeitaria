@@ -1,10 +1,3 @@
-$(document).ready(function () {
-    $(".hamburguer").click(function () {
-        $(this).toggleClass("active");
-        $(".menu").toggleClass("active");
-    })
-});
-
 function limpaCampos() {
 
     setTimeout(function () {
@@ -15,3 +8,10 @@ function limpaCampos() {
     }, 500)
 
 }
+
+$(document).ready(function () {
+    $(".hamburguer").click(function () {
+        $(this).toggleClass("active");
+        $(".menu").toggleClass("active");
+    })
+});

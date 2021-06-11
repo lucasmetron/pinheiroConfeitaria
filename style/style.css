@@ -176,6 +176,7 @@ header{
 }
 
 .menu a:hover {
+    background-color: var(--var--white1);
     color: var(--var--green1);
     transition: 0.5s;
 
@@ -556,7 +557,7 @@ footer{
         display: block;
     }
     .menu.active {
-        right: -100%;
+        /* right: -100%; */
         display: none;
     }
     
