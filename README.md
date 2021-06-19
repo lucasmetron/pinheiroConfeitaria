@@ -4,7 +4,7 @@
 </div>
 
 
-### - Olá comunidade!
+### - Olá comunidade! :D
 
 ### - Para praticar minhas skills de front-end, decidi fazer uma página para a confeitaria da minha cunhada. E claro, a responsável pelo UI e todo esse layout top é a minha esposa Laís.
 
